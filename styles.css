@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container-Input {
+  width: 60vw;
+  height: 50vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+}
+.container-Input div {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-Input div input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.container-Input input::-webkit-inner-spin-button,
+.container-Input input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#sendOTP,
+#verify {
+  width: 10rem;
+  height: 4rem;
+  border-radius: 1rem;
+  background-color: rgb(0, 60, 255);
+  border: 1px solid white;
+  color: white;
+}
+
+@media (min-width: 432px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 431px) {
+  html {
+    font-size: 9px;
+  }
+}
